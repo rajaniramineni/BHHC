@@ -151,6 +151,9 @@
 	 -webkit-clip-path: circle(0% at 220px 88%);
 	 clip-path: circle(0% at 220px 88%);
 }
+.cards #strengths .card-content p {
+	padding-left: 10px;
+}
  .cards #strengths.active .card-content {
 	 -webkit-clip-path: circle(270% at 220px 88%);
 	 clip-path: circle(270% at 220px 88%);
