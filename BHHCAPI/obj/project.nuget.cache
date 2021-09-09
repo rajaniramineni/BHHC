@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NyD2aJfUt3ALAnA/HUWwbT16cFu7QLNOJxa8m5li0stzo8/D/XrxmnoQUmnVY7wIJxo8YqRDaU2sPjuvQ+YYCw==",
+  "dgSpecHash": "YZQzbserAfDDDNTeOuReEgZrB+hngBmWjreqoazSuPKg6uM76SGEYsSIv/UgGsRgBZJ2VYx+9nNxXWiboNnztw==",
   "success": true,
-  "projectFilePath": "C:\\Code\\Learning\\BHHCAPI\\BHHCAPI.csproj",
+  "projectFilePath": "C:\\Code\\Learning\\BHHC\\BHHCAPI\\BHHCAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rajani.k.ramineni\\.nuget\\packages\\graphiql\\1.2.0\\graphiql.1.2.0.nupkg.sha512",
     "C:\\Users\\rajani.k.ramineni\\.nuget\\packages\\graphql\\2.4.0\\graphql.2.4.0.nupkg.sha512",

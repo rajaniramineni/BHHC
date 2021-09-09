@@ -8515,11 +8515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Learning\\BHHCAPI\\BHHCAPI.csproj",
+      "projectUniqueName": "C:\\Code\\Learning\\BHHC\\BHHCAPI\\BHHCAPI.csproj",
       "projectName": "BHHCAPI",
-      "projectPath": "C:\\Code\\Learning\\BHHCAPI\\BHHCAPI.csproj",
+      "projectPath": "C:\\Code\\Learning\\BHHC\\BHHCAPI\\BHHCAPI.csproj",
       "packagesPath": "C:\\Users\\rajani.k.ramineni\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Learning\\BHHCAPI\\obj\\",
+      "outputPath": "C:\\Code\\Learning\\BHHC\\BHHCAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

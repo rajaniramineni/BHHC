@@ -1,3 +1,6 @@
 .bodybackground{
     background-color: black;
 }
+.cursorstyle{
+    cursor: pointer;
+}
