@@ -1,0 +1,69 @@
+<div class="cards">		
+	 <div class="card active"  id="overview">
+		<a (click)="cardClick($event)" class="card-toggle" ><i class="fa fa-arrow-circle-left"></i></a>
+		<div class="card-content">
+			<div class="row">
+				<div class="left col">
+					<h2>My Demo</h2>
+					
+					<p>this app is showing some reasons why i want to join this Company team, why would i be a good fit and strengths i feel confident with there are three cards showing more details. 
+						<br/>Click one of the icons below to switch between cards. <br /><em>Make sure you're running this experiment in the latest Chrome browser.</em></p>
+					
+				</div>
+				<div class="right col">
+				</div>
+			</div>
+		</div>
+	</div> 
+	
+
+	<div class="card" id="whyThisCompay">
+		<a (click)="cardClick($event)" class="card-toggle"><i><span title="why This Company" class="fa fa-question"></span></i></a>
+		<div class="card-content">
+			<div class="row">
+				<div class="left col">
+					<h2>Why why This Company ?</h2>
+					<div *ngFor="let reason of reasons">
+                        <p>{{reason.id}}. {{reason.description}}</p>
+                    </div>
+					
+					
+				</div>
+				<div class="right col"></div>
+			</div>
+		</div>
+	</div> 
+	
+	<div class="card" id="goodFit">
+		<a (click)="cardClick($event)" class="card-toggle"><i><span title="Good fit" class="fa fa-puzzle-piece"></span></i></a>
+		<div class="card-content">
+			<div class="row">
+				<div class="left col">                    
+					<h2>Why Me ?</h2>
+					<div *ngFor ="let gf of gfFacts">
+                        <p>{{gf.id}}. {{gf.factdescription}}</p>
+                    </div>
+				</div>
+				<div class="right col"></div>
+			</div>
+		</div>
+	</div>
+	<div class="card" id="strengths">
+		<a (click)="cardClick($event)" class="card-toggle"><i><span title="Strengths" class="fa fa-hashtag"></span></i></a>
+		<div class="card-content">
+			<div class="row">
+				<div class="left col">
+					<h2>Skills & Strengths</h2>
+                    <div *ngFor ="let strength of strengths">
+                        <p>{{strength.strengthDescription}}</p>
+                    </div>
+					
+				</div>
+				<div class="right col"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+</div>
